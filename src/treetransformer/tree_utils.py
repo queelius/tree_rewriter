@@ -140,3 +140,24 @@ class TreeAlg:
         :return: True if the node is a leaf, False otherwise.
         """
         return not node.children()
+
+
+    def filter_tree(tree, pred) -> List
+        """
+        Return nodes in tree satisfying `pred` where `pred` is a predicate on tree nodes.
+
+        :param tree : The tree
+        :param pred : A function that takes a node and returns True if the node matches the condition.
+        :return: Nodes that match on pred.
+        """
+
+        results = []
+        def _filter(node):
+
+            if pred(node):
+                results.append(node)
+            for child in node.children():
+                _match(child)
+
+        _filter(tree)
+        return results
