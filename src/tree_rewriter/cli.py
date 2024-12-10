@@ -1,5 +1,5 @@
 """Console script for treetransformer."""
-import treetransformer
+import tree_rewriter
 
 import typer
 from rich.console import Console
@@ -12,7 +12,7 @@ console = Console()
 def main():
     """Console script for treetransformer."""
     console.print("Replace this message by putting your code into "
-               "treetransformer.cli.main")
+               "tree_rewriter.cli.main")
     console.print("See Typer documentation at https://typer.tiangolo.com/")
     
 

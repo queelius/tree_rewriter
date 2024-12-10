@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "treetransformer"
+name = "tree_rewriter"
 version = "0.1.0"
-description = "A set of generic functions or classes that can be used to transform or rewrite trees"
+description = "A low-level tree rewriting library"
 readme = "README.rst"
 authors = [
   {name = "Alex Towell", email = "lex@metafunctor.com"}
@@ -31,9 +31,9 @@ dev = [
 
 [project.urls]
 
-bugs = "https://github.com/queelius/treetransformer/issues"
-changelog = "https://github.com/queelius/treetransformer/blob/master/changelog.md"
-homepage = "https://github.com/queelius/treetransformer"
+bugs = "https://github.com/queelius/tree_rewriter/issues"
+changelog = "https://github.com/queelius/tree_rewriter/blob/master/changelog.md"
+homepage = "https://github.com/queelius/tree_rewriter"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

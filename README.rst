@@ -1,26 +1,12 @@
-===============
-TreeTransformer
-===============
+=============
+Tree Rewriter
+=============
 
-
-.. image:: https://img.shields.io/pypi/v/treetransformer.svg
-        :target: https://pypi.python.org/pypi/treetransformer
-
-.. image:: https://img.shields.io/travis/queelius/treetransformer.svg
-        :target: https://travis-ci.com/queelius/treetransformer
-
-.. image:: https://readthedocs.org/projects/treetransformer/badge/?version=latest
-        :target: https://treetransformer.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
-
-
-
-
-A set of generic functions or classes that can be used to transform or rewrite trees
-
-
-* Free software: MIT license
-* Documentation: https://treetransformer.readthedocs.io.
+Tree Rewriter is a Python package for rewriting trees (which can represent
+things like expressions). The package provides a low-level interface for
+rewrites (which we call rules, but technically they are just functions).
+Normally, you would want to use a higher-level interface, but for more
+tricky cases, you can use this low-level interface.
 
 
 Features
@@ -28,10 +14,3 @@ Features
 
 * TODO
 
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage

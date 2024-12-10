@@ -1,4 +1,4 @@
-"""Top-level package for TreeTransformer."""
+"""Top-level package for Tree Rewriter."""
 
 __author__ = """Alex Towell"""
 __email__ = 'lex@metafunctor.com'
