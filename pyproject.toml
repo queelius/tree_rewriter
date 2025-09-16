@@ -3,10 +3,10 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tree_rewriter"
+name = "tree-rewriter"
 version = "0.1.0"
-description = "A low-level tree rewriting library"
-readme = "README.rst"
+description = "A minimal term rewriting system"
+readme = "README.md"
 authors = [
   {name = "Alex Towell", email = "lex@metafunctor.com"}
 ]
@@ -14,12 +14,17 @@ maintainers = [
   {name = "Alex Towell", email = "lex@metafunctor.com"}
 ]
 classifiers = [
-
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
 ]
-license = {text = "MIT license"}
-dependencies = [
-  
-]
+license = {text = "MIT"}
+dependencies = []
+requires-python = ">=3.10"
 
 [project.optional-dependencies]
 dev = [
